@@ -1,0 +1,8 @@
+<h1>News</h1>
+<?php
+$news = Mage::registry('news');
+foreach ($news as $item) {
+    echo '<h4>' . $item['title'] . '</h4>';
+    echo '<p>' . $item['content'] . '</p>';
+    echo '<p><strong>' . $item['created'] . '</strong></p>';
+}

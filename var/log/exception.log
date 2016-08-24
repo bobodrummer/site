@@ -1,0 +1,64 @@
+2016-08-05T14:10:18+00:00 ERR (3): 
+exception 'Mage_Core_Exception' with message 'Invalid block type: Mage_Adminhtml_Block_Adminhtml_Siteblocks_Edit_Form' in /vagrant/public/local.dev/app/Mage.php:595
+Stack trace:
+#0 /vagrant/public/local.dev/app/code/core/Mage/Core/Model/Layout.php(495): Mage::throwException('Invalid block t...')
+#1 /vagrant/public/local.dev/app/code/core/Mage/Core/Model/Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('adminhtml/admin...', Array)
+#2 /vagrant/public/local.dev/app/code/core/Mage/Adminhtml/Block/Widget/Form/Container.php(93): Mage_Core_Model_Layout->createBlock('adminhtml/admin...')
+#3 /vagrant/public/local.dev/app/code/core/Mage/Core/Block/Abstract.php(293): Mage_Adminhtml_Block_Widget_Form_Container->_prepareLayout()
+#4 /vagrant/public/local.dev/app/code/core/Mage/Core/Model/Layout.php(456): Mage_Core_Block_Abstract->setLayout(Object(Mage_Core_Model_Layout))
+#5 /vagrant/public/local.dev/app/code/local/IGN/Siteblocks/controllers/Adminhtml/SiteblocksController.php(18): Mage_Core_Model_Layout->createBlock('siteblocks/admi...')
+#6 /vagrant/public/local.dev/app/code/core/Mage/Core/Controller/Varien/Action.php(418): IGN_Siteblocks_Adminhtml_SiteblocksController->editAction()
+#7 /vagrant/public/local.dev/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('edit')
+#8 /vagrant/public/local.dev/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#9 /vagrant/public/local.dev/app/code/core/Mage/Core/Model/App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#10 /vagrant/public/local.dev/app/Mage.php(684): Mage_Core_Model_App->run(Array)
+#11 /vagrant/public/local.dev/index.php(83): Mage::run('', 'store')
+#12 {main}
+2016-08-05T14:10:32+00:00 ERR (3): 
+exception 'Mage_Core_Exception' with message 'Invalid block type: Mage_Adminhtml_Block_Adminhtml_Siteblocks_Edit_Form' in /vagrant/public/local.dev/app/Mage.php:595
+Stack trace:
+#0 /vagrant/public/local.dev/app/code/core/Mage/Core/Model/Layout.php(495): Mage::throwException('Invalid block t...')
+#1 /vagrant/public/local.dev/app/code/core/Mage/Core/Model/Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('adminhtml/admin...', Array)
+#2 /vagrant/public/local.dev/app/code/core/Mage/Adminhtml/Block/Widget/Form/Container.php(93): Mage_Core_Model_Layout->createBlock('adminhtml/admin...')
+#3 /vagrant/public/local.dev/app/code/core/Mage/Core/Block/Abstract.php(293): Mage_Adminhtml_Block_Widget_Form_Container->_prepareLayout()
+#4 /vagrant/public/local.dev/app/code/core/Mage/Core/Model/Layout.php(456): Mage_Core_Block_Abstract->setLayout(Object(Mage_Core_Model_Layout))
+#5 /vagrant/public/local.dev/app/code/local/IGN/Siteblocks/controllers/Adminhtml/SiteblocksController.php(18): Mage_Core_Model_Layout->createBlock('siteblocks/admi...')
+#6 /vagrant/public/local.dev/app/code/core/Mage/Core/Controller/Varien/Action.php(418): IGN_Siteblocks_Adminhtml_SiteblocksController->editAction()
+#7 /vagrant/public/local.dev/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('edit')
+#8 /vagrant/public/local.dev/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#9 /vagrant/public/local.dev/app/code/core/Mage/Core/Model/App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#10 /vagrant/public/local.dev/app/Mage.php(684): Mage_Core_Model_App->run(Array)
+#11 /vagrant/public/local.dev/index.php(83): Mage::run('', 'store')
+#12 {main}
+2016-08-05T14:11:53+00:00 ERR (3): 
+exception 'Mage_Core_Exception' with message 'Invalid block type: Mage_Adminhtml_Block_Adminhtml_Siteblocks_Edit_Form' in /vagrant/public/local.dev/app/Mage.php:595
+Stack trace:
+#0 /vagrant/public/local.dev/app/code/core/Mage/Core/Model/Layout.php(495): Mage::throwException('Invalid block t...')
+#1 /vagrant/public/local.dev/app/code/core/Mage/Core/Model/Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('adminhtml/admin...', Array)
+#2 /vagrant/public/local.dev/app/code/core/Mage/Adminhtml/Block/Widget/Form/Container.php(93): Mage_Core_Model_Layout->createBlock('adminhtml/admin...')
+#3 /vagrant/public/local.dev/app/code/core/Mage/Core/Block/Abstract.php(293): Mage_Adminhtml_Block_Widget_Form_Container->_prepareLayout()
+#4 /vagrant/public/local.dev/app/code/core/Mage/Core/Model/Layout.php(456): Mage_Core_Block_Abstract->setLayout(Object(Mage_Core_Model_Layout))
+#5 /vagrant/public/local.dev/app/code/local/IGN/Siteblocks/controllers/Adminhtml/SiteblocksController.php(18): Mage_Core_Model_Layout->createBlock('siteblocks/admi...')
+#6 /vagrant/public/local.dev/app/code/core/Mage/Core/Controller/Varien/Action.php(418): IGN_Siteblocks_Adminhtml_SiteblocksController->editAction()
+#7 /vagrant/public/local.dev/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('edit')
+#8 /vagrant/public/local.dev/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#9 /vagrant/public/local.dev/app/code/core/Mage/Core/Model/App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#10 /vagrant/public/local.dev/app/Mage.php(684): Mage_Core_Model_App->run(Array)
+#11 /vagrant/public/local.dev/index.php(83): Mage::run('', 'store')
+#12 {main}
+2016-08-05T14:14:36+00:00 ERR (3): 
+exception 'Mage_Core_Exception' with message 'Invalid block type: Mage_Adminhtml_Block_Adminhtml_Siteblocks_Edit_Form' in /vagrant/public/local.dev/app/Mage.php:595
+Stack trace:
+#0 /vagrant/public/local.dev/app/code/core/Mage/Core/Model/Layout.php(495): Mage::throwException('Invalid block t...')
+#1 /vagrant/public/local.dev/app/code/core/Mage/Core/Model/Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('adminhtml/admin...', Array)
+#2 /vagrant/public/local.dev/app/code/core/Mage/Adminhtml/Block/Widget/Form/Container.php(93): Mage_Core_Model_Layout->createBlock('adminhtml/admin...')
+#3 /vagrant/public/local.dev/app/code/core/Mage/Core/Block/Abstract.php(293): Mage_Adminhtml_Block_Widget_Form_Container->_prepareLayout()
+#4 /vagrant/public/local.dev/app/code/core/Mage/Core/Model/Layout.php(456): Mage_Core_Block_Abstract->setLayout(Object(Mage_Core_Model_Layout))
+#5 /vagrant/public/local.dev/app/code/local/IGN/Siteblocks/controllers/Adminhtml/SiteblocksController.php(20): Mage_Core_Model_Layout->createBlock('siteblocks/admi...')
+#6 /vagrant/public/local.dev/app/code/core/Mage/Core/Controller/Varien/Action.php(418): IGN_Siteblocks_Adminhtml_SiteblocksController->editAction()
+#7 /vagrant/public/local.dev/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('edit')
+#8 /vagrant/public/local.dev/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#9 /vagrant/public/local.dev/app/code/core/Mage/Core/Model/App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#10 /vagrant/public/local.dev/app/Mage.php(684): Mage_Core_Model_App->run(Array)
+#11 /vagrant/public/local.dev/index.php(83): Mage::run('', 'store')
+#12 {main}

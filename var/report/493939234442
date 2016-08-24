@@ -1,0 +1,14 @@
+a:5:{i:0;s:509:"Error in file: "/vagrant/public/local.dev/app/code/core/Mage/Core/sql/core_setup/install-1.6.0.0.php" - SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'core_resource' already exists, query was: CREATE TABLE `core_resource` (
+  `code` varchar(50) NOT NULL COMMENT 'Resource Code' ,
+  `version` varchar(50) NULL COMMENT 'Resource Version' ,
+  `data_version` varchar(50) NULL COMMENT 'Data Version' ,
+  PRIMARY KEY (`code`)
+) COMMENT='Resources' ENGINE=INNODB charset=utf8 COLLATE=utf8_general_ci";i:1;s:960:"#0 /vagrant/public/local.dev/app/code/core/Mage/Core/Model/Resource/Setup.php(644): Mage::exception('Mage_Core', 'Error in file: ...')
+#1 /vagrant/public/local.dev/app/code/core/Mage/Core/Model/Resource/Setup.php(421): Mage_Core_Model_Resource_Setup->_modifyResourceDb('install', '', '1.6.0.6')
+#2 /vagrant/public/local.dev/app/code/core/Mage/Core/Model/Resource/Setup.php(327): Mage_Core_Model_Resource_Setup->_installResourceDb('1.6.0.6')
+#3 /vagrant/public/local.dev/app/code/core/Mage/Core/Model/Resource/Setup.php(235): Mage_Core_Model_Resource_Setup->applyUpdates()
+#4 /vagrant/public/local.dev/app/code/core/Mage/Core/Model/App.php(428): Mage_Core_Model_Resource_Setup::applyAllUpdates()
+#5 /vagrant/public/local.dev/app/code/core/Mage/Core/Model/App.php(354): Mage_Core_Model_App->_initModules()
+#6 /vagrant/public/local.dev/app/Mage.php(684): Mage_Core_Model_App->run(Array)
+#7 /vagrant/public/local.dev/index.php(83): Mage::run('', 'store')
+#8 {main}";s:3:"url";s:1:"/";s:11:"script_name";s:10:"/index.php";s:4:"skin";s:7:"default";}
